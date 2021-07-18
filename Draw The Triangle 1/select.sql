@@ -1,0 +1,7 @@
+DECLARE @i INTEGER = 20
+WHILE @i > 0
+BEGIN
+SELECT REPLICATE('* ', @i)
+SET @i = @i - 1
+END
+GO
